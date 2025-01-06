@@ -2,8 +2,8 @@
 - The Cloud Text Editor is essentially a normal text editor wherein multiple users can use the same application on the same device in order to privately access and work on their text documents.
 - This is achieved through a login system – so a user logs in to their account in order to view and modify their text files.
 - If we’re comparing it with other text editors, we can say that the Cloud Text Editor that we’ve developed is a combination of
-        - the layout and features of Notepad or Notepad++
-        - the cloud-based environment of Google Docs, fusing simplicity with effective storage.
+  - the layout and features of Notepad or Notepad++
+  - the cloud-based environment of Google Docs, fusing simplicity with effective storage.
 - One thing to note, however, is that we’re not actually using a cloud service.
 - We’re not using Google Cloud Platform or Amazon Web Services to make this possible.
 - Instead, what we have done is simulate the working of a cloud service.
