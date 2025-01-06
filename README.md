@@ -6,7 +6,7 @@ This is achieved through a **login system** – each user logs into their accoun
 
 ## Key Features  
 - **Registration with OTP Verification**  
-  EA registered email has to be verified through an OTP sent to that email using the SMTP service.
+  A registered email has to be verified through an OTP sent to that email using the SMTP service.
   
 - **User-Specific File Access**  
   Each user has a private workspace accessible only through their login credentials. 
