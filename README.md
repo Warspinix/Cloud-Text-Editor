@@ -1,14 +1,39 @@
-# Cloud-Text-Editor
-- The Cloud Text Editor is essentially a normal text editor wherein multiple users can use the same application on the same device in order to privately access and work on their text documents.
-- This is achieved through a login system – so a user logs in to their account in order to view and modify their text files.
-- If we’re comparing it with other text editors, we can say that the Cloud Text Editor that we’ve developed is a combination of
-  - the layout and features of Notepad or Notepad++
-  - the cloud-based environment of Google Docs, fusing simplicity with effective storage.
-- One thing to note, however, is that we’re not actually using a cloud service.
-- We’re not using Google Cloud Platform or Amazon Web Services to make this possible.
-- Instead, what we have done is simulate the working of a cloud service.
-- The Cloud Text Editor actually does store files locally, but the actual end user does not know that.
-- What happens is that a folder is created for the user based on their email – for example, if their email is test@example.com, then their folder name will be C:\...\testexample, and their files will be stored and retrieved from this specific folder.
-- The user interface on the frontend does not showcase any of this.
-- If a user wants to save or rename or open a file, our custom windows are what appear instead of anything that might indicate we’re using local storage.
-- So, this Cloud Text Editor that we have developed is simulating a potential Cloud Text Editor that we could very well build with the necessary resources from an actual cloud service.
+# Cloud Text Editor  
+
+A modern text editor that allows multiple users to privately access and work on their text documents on the same device.  
+
+This is achieved through a **login system** – each user logs into their account to view, create, and edit their files.  
+
+## Key Features  
+- **Registration with OTP Verification**
+  A registered email has to be verified through an OTP sent to that email using the SMTP service.
+  
+- **User-Specific File Access**  
+  Each user has a private workspace accessible only through their login credentials. 
+
+- **Familiar Layout**  
+  Combines the simplicity and design of **Notepad** or **Notepad++** with modern enhancements.  
+
+- **Simulated Cloud Environment**  
+  Provides the feel of a cloud-based editor like **Google Docs** without using an actual cloud service.  
+
+## Simulated Cloud Functionality  
+Although called a "Cloud" Text Editor, the application does **not use cloud services** such as Google Cloud Platform or AWS. Instead, it simulates the behavior of a cloud-based system:  
+
+1. **Local Storage with Cloud-Like Organization**  
+   - Files are stored locally, but the folder structure is customized for each user.  
+   - For example, a user with the email `test@example.com` will have their files stored in:  
+     `C:\...\testexample`  
+
+2. **Seamless User Interface**  
+   - The frontend hides any indication of local storage.  
+   - Custom windows are presented for actions like saving, renaming, or opening files, maintaining the illusion of a cloud environment.  
+
+## Why Choose Cloud Text Editor?  
+The Cloud Text Editor bridges the gap between traditional text editors and cloud-based systems by:  
+- Offering a simple and familiar layout.  
+- Simulating a cloud experience with local resources.  
+- Enabling efficient, private access for multiple users on the same device.  
+
+### A Glimpse Into the Future  
+While this project currently simulates a cloud-based system, it lays the groundwork for integration with actual cloud services in the future, making it scalable and truly cloud-native.  
