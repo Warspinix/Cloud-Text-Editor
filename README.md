@@ -29,11 +29,5 @@ Although called a "Cloud" Text Editor, the application does **not use cloud serv
    - The frontend hides any indication of local storage.  
    - Custom windows are presented for actions like saving, renaming, or opening files, maintaining the illusion of a cloud environment.  
 
-## Why Choose Cloud Text Editor?  
-The Cloud Text Editor bridges the gap between traditional text editors and cloud-based systems by:  
-- Offering a simple and familiar layout.  
-- Simulating a cloud experience with local resources.  
-- Enabling efficient, private access for multiple users on the same device.  
-
 ### A Glimpse Into the Future  
 While this project currently simulates a cloud-based system, it lays the groundwork for integration with actual cloud services in the future, making it scalable and truly cloud-native.  
